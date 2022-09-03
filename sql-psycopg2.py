@@ -11,8 +11,8 @@ cursor = connection.cursor()
 # cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"])
 # cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', [51])
 # cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [51])
+# cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [128])
 cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["Led Zeppelin"])
-#cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [128])
 
 
 
